@@ -1,0 +1,54 @@
+.home__div {
+  background-image: url("../images/GOTwallpaper.jpg");
+  height: 70.5vh;
+  display: flex;
+  padding: 9rem;
+  flex-direction: column;
+}
+
+.home__div__quote {
+  width: 100%;
+}
+
+.quote {
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  color: white;
+  font-family: "Arapey", serif;
+  background: #ffffff1a;
+  border-radius: 0.5rem;
+}
+
+.home__div__logo {
+  width: 100%;
+  display: flex;
+}
+
+.logo__image {
+  width: 35rem;
+  margin-left: 4rem;
+}
+
+.home__background__filter {
+  opacity: 0.1;
+  width: 100%;
+  height: 70.5vh;
+  margin: -9rem;
+  background-color: #00e8ff;
+  position: absolute;
+  animation-name: color;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  50% {
+    background-color: #4285f4;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}

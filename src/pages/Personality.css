@@ -1,0 +1,11 @@
+.home__div__video {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.video {
+  margin: 2rem 0;
+  box-shadow: 0 30px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
