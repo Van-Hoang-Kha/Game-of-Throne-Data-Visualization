@@ -1,0 +1,621 @@
+{
+  "characters": [
+    {
+      "characterName": "Bran Stark",
+      "houseName": "Stark",
+      "killedBy": ["Aerys II Targaryen"],
+      "parents": ["Eddard Stark", "Lyanna Stark"],
+      "siblings": [
+        "Sansa Stark",
+        "Benjen Stark",
+        "Jon Snow",
+        "Arya Stark",
+        "Robb Stark"
+      ]
+    },
+    {
+      "characterName": "Brienne of Tarth",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzNDY4NzgzOV5BMl5BanBnXkFtZTcwNDM5ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzNDY4NzgzOV5BMl5BanBnXkFtZTcwNDM5ODg4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0254503/",
+      "actorName": "Gwendoline Christie",
+      "actorLink": "/name/nm3729225/",
+      "kingsguard": true,
+      "killed": ["Soldier Tom", "Stannis Baratheon", "Bolton Officer"],
+      "serves": [
+        "Renly Baratheon",
+        "Catelyn Stark",
+        "Sansa Stark",
+        "Bran Stark",
+        "Jon Snow",
+        "Jaime Lannister"
+      ],
+      "servedBy": ["Podrick Payne"]
+    },
+    {
+      "characterName": "Cersei Lannister",
+      "houseName": ["Lannister", "Baratheon"],
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzNTAxNjExMl5BMl5BanBnXkFtZTcwMDEwNzI4OQ@@._V1._CR954,56,605,670._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzNTAxNjExMl5BMl5BanBnXkFtZTcwMDEwNzI4OQ@@._V1._CR954,56,605,670_.jpg",
+      "characterLink": "/character/ch0159526/",
+      "actorName": "Lena Headey",
+      "actorLink": "/name/nm0372176/",
+      "parents": ["Tywin Lannister"],
+      "parentOf": [
+        "Joffrey Baratheon",
+        "Myrcella Baratheon",
+        "Tommen Baratheon"
+      ],
+      "royal": true,
+      "siblings": ["Jaime Lannister", "Tyrion Lannister"],
+      "marriedEngaged": ["Robert Baratheon"],
+      "killed": [
+        "Lancel Lannister",
+        "High Sparrow",
+        "Loras Tyrell",
+        "Mace Tyrell",
+        "Margaery Tyrell",
+        "Kevan Lannister",
+        "Tyene Sand"
+      ],
+      "killedBy": ["Roof collapse"],
+      "encountered": ["Jon Snow"]
+    },
+    {
+      "characterName": "Daario Naharis",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2ExMDJmNzMtMDVmZi00MDNlLWI1NzYtOTkxOTdlOWU4YzE4XkEyXkFqcGdeQXVyNTcxMzMwNTA@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2ExMDJmNzMtMDVmZi00MDNlLWI1NzYtOTkxOTdlOWU4YzE4XkEyXkFqcGdeQXVyNTcxMzMwNTA@._V1_SY1000_CR0,0,665,1000_AL_.jpg",
+      "characterLink": "/character/ch0335040/",
+      "actors": [
+        {
+          "actorName": "Ed Skrein",
+          "actorLink": "/name/nm4534098/",
+          "seasonsActive": [3]
+        },
+        {
+          "actorName": "Michiel Huisman",
+          "actorLink": "/name/nm0401264/",
+          "seasonsActive": [4, 5, 6]
+        }
+      ],
+      "killed": [
+        "Mero",
+        "Prendahl na Ghezn",
+        "Oznak zo Pahl",
+        "Mossador",
+        "Iggo",
+        "Akho"
+      ],
+      "serves": ["Daenerys Targaryen"]
+    },
+    {
+      "characterName": "Daenerys Targaryen",
+      "value": "#545058",
+      "houseName": "Targaryen",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MzIxMTQwMF5BMl5BanBnXkFtZTcwMzY2NDg1Nw@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4MzIxMTQwMF5BMl5BanBnXkFtZTcwMzY2NDg1Nw@@._V1_SY1000_CR0,0,810,1000_AL_.jpghttps://images-na.ssl-images-amazon.com/images/M/MV5BMTgwNzIxMTU1OV5BMl5BanBnXkFtZTcwNzI2ODg5NA@@._V1._SX100_SY140_.jpg",
+      "characterLink": "/character/ch0158597/",
+      "actorName": "Emilia Clarke",
+      "actorLink": "/name/nm3592338/",
+      "royal": true,
+      "parents": ["Aerys II Targaryen", "Rhaella Targaryen"],
+      "siblings": ["Rhaegar Targaryen", "Viserys Targaryen"],
+      "killed": [
+        "Khal Drogo",
+        "Mirri Maz Duur",
+        "Doreah",
+        "Xaro Xhoan Daxos",
+        "Khal Rhalko",
+        "Khal Brozho",
+        "Khal Qorro",
+        "Khal Forzho",
+        "Khal Moro",
+        "Dothraki Bloodrider #1",
+        "Dothraki Bloodrider #2",
+        "Randyll Tarly",
+        "Dickon Tarly",
+        "Eleanor",
+        "Eleanor's Daughter",
+        "Lord Varys"
+      ],
+      "servedBy": [
+        "Barristan Selmy",
+        "Daario Naharis",
+        "Grey Worm",
+        "Jorah Mormont",
+        "Missandei",
+        "Tyrion Lannister"
+      ],
+      "parentOf": ["Rhaego"],
+      "encountered": ["Cersei Lannister", "Sansa Stark", "Lord Varys"],
+      "marriedEngaged": ["Khal Drogo"],
+      "guardedBy": ["Drogon", "Rhaegal", "Viserion"],
+      "killedBy": ["Jon Snow"]
+    },
+    {
+      "characterName": "Ygritte",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NDA1Njk3Nl5BMl5BanBnXkFtZTcwOTQ2NDk4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NDA1Njk3Nl5BMl5BanBnXkFtZTcwOTQ2NDk4OQ@@._V1_SY1000_CR0,0,724,1000_AL_.jpg",
+      "characterLink": "/character/ch0304492/",
+      "actorName": "Rose Leslie",
+      "actorLink": "/name/nm3310211/",
+      "killed": ["Old Man", "Guymon", "Mole's Town Whore", "Pypar"],
+      "killedBy": ["Olly"],
+      "marriedEngaged": ["Jon Snow"]
+    },
+    {
+      "characterName": "Yara Greyjoy",
+      "houseName": "Greyjoy",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2NzU5ODk0MV5BMl5BanBnXkFtZTcwMzEyNDY2OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc2NzU5ODk0MV5BMl5BanBnXkFtZTcwMzEyNDY2OQ@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg",
+      "characterLink": "/character/ch0300217/",
+      "actorName": "Gemma Whelan",
+      "actorLink": "/name/nm2247629/",
+      "parents": ["Balon Greyjoy"],
+      "siblings": ["Theon Greyjoy"]
+    },
+    {
+      "characterName": "Viserys Targaryen",
+      "houseName": "Targaryen",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwNzIxMTU1OV5BMl5BanBnXkFtZTcwNzI2ODg5NA@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgwNzIxMTU1OV5BMl5BanBnXkFtZTcwNzI2ODg5NA@@._V1_SY1000_CR0,0,1503,1000_AL_.jpg",
+      "characterLink": "/character/ch0155775/",
+      "actorName": "Harry Lloyd",
+      "actorLink": "/name/nm0516003/",
+      "royal": true,
+      "parents": ["Rhaella Targaryen", "Aerys II Targaryen"],
+      "siblings": ["Daenerys Targaryen", "Rhaegar Targaryen"],
+      "killedBy": ["Khal Drogo"]
+    },
+    {
+      "characterName": "Lord Varys",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNDk2MjczM15BMl5BanBnXkFtZTcwODk0ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNDk2MjczM15BMl5BanBnXkFtZTcwODk0ODg4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0249636/",
+      "actorName": "Conleth Hill",
+      "actorLink": "/name/nm0384152/",
+      "encountered": [
+        "Jon Snow",
+        "Tyrion Lannister",
+        "Tywin Lannister",
+        "Cersei Lannister",
+        "Jaime Lannister",
+        "Eddard Stark"
+      ],
+      "killedBy": ["Daenerys Targaryen"]
+    },
+    {
+      "characterName": "Tyrion Lannister",
+      "houseName": "Lannister",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA2MDAwOTI0OV5BMl5BanBnXkFtZTcwNjA3NDg1Nw@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA2MDAwOTI0OV5BMl5BanBnXkFtZTcwNjA3NDg1Nw@@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+      "characterLink": "/character/ch0146096/",
+      "actorName": "Peter Dinklage",
+      "actorLink": "/name/nm0227759/",
+      "marriedEngaged": ["Sansa Stark"],
+      "killed": ["Shae", "Tywin Lannister"],
+      "parents": ["Tywin Lannister"],
+      "siblings": ["Cersei Lannister", "Jaime Lannister"],
+      "serves": ["Daenerys Targaryen"]
+    },
+    {
+      "characterName": "Tommen Baratheon",
+      "houseName": "Baratheon",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTY1YWUxM2QtZjhmZC00ZmQ2LThkM2YtNTk2MmQ5OTk3NGMyXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTY1YWUxM2QtZjhmZC00ZmQ2LThkM2YtNTk2MmQ5OTk3NGMyXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0256424/",
+      "actors": [
+        {
+          "actorName": "Callum Wharry",
+          "actorLink": "/name/nm4422626/",
+          "seasonsActive": [1, 2]
+        },
+        {
+          "actorName": "Dean-Charles Chapman",
+          "actorLink": "/name/nm2835616/",
+          "seasonsActive": [4, 5, 6]
+        }
+      ],
+      "parents": ["Robert Baratheon", "Cersei Lannister", "Jaime Lannister"],
+      "siblings": ["Joffrey Baratheon", "Myrcella Baratheon"],
+      "royal": true,
+      "marriedEngaged": ["Margaery Tyrell"],
+      "killed": ["Tommen Baratheon"],
+      "killedBy": ["Tommen Baratheon"]
+    },
+    {
+      "characterName": "Theon Greyjoy",
+      "houseName": "Greyjoy",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM3ODUyOTY3N15BMl5BanBnXkFtZTcwNjI4MTg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM3ODUyOTY3N15BMl5BanBnXkFtZTcwNjI4MTg4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0158526/",
+      "actorName": "Alfie Allen",
+      "actorLink": "/name/nm0654295/",
+      "killed": [
+        "Stiv",
+        "Rodrik Cassel",
+        "Myranda",
+        "Bolton Soldier",
+        "Harrag"
+      ],
+      "siblings": ["Yara Greyjoy"],
+      "parents": ["Balon Greyjoy"],
+      "killedBy": ["The Night King"]
+    },
+    {
+      "characterName": "Sandor Clegane",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMjEwNDQ1MF5BMl5BanBnXkFtZTcwMzAxODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQwMjEwNDQ1MF5BMl5BanBnXkFtZTcwMzAxODg4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0162882/",
+      "actorName": "Rory McCann",
+      "actorLink": "/name/nm0564920/",
+      "nickname": "The Hound",
+      "killed": [
+        "Mycah",
+        "Kings Landing Rioter #1",
+        "Kings Landing Rioter #2",
+        "Kings Landing Rioter #3",
+        "Beric Dondarrion",
+        "Frey Soldier #2",
+        "Lowell",
+        "Dying Man",
+        "Biter",
+        "Steve",
+        "Riddell",
+        "Gatins",
+        "Morgan",
+        "Lem Lemoncloak",
+        "Gregor Clegane"
+      ],
+      "siblings": ["Gregor Clegane"],
+      "killedBy": ["Arya Stark", "Jon Snow", "Sansa Stark"]
+    },
+    {
+      "characterName": "Joffrey Baratheon",
+      "houseName": "Baratheon",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1NDg5MTAwMl5BMl5BanBnXkFtZTcwOTIwODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk1NDg5MTAwMl5BMl5BanBnXkFtZTcwOTIwODg4OQ@@._V1_SY1000_CR0,0,818,1000_AL_.jpg",
+      "characterLink": "/character/ch0156278/",
+      "actorName": "Jack Gleeson",
+      "actorLink": "/name/nm0322416/",
+      "parents": ["Robert Baratheon", "Cersei Lannister", "Jaime Lannister"],
+      "siblings": ["Myrcella Baratheon", "Tommen Baratheon"],
+      "marriedEngaged": ["Sansa Stark", "Margaery Tyrell"],
+      "royal": true,
+      "killed": ["Ros"],
+      "killedBy": ["Petyr Baelish", "Olenna Tyrell"]
+    },
+    {
+      "characterName": "Sansa Stark",
+      "houseName": "Stark",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjAwMjE2NDExNF5BMl5BanBnXkFtZTcwODAwODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNjAwMjE2NDExNF5BMl5BanBnXkFtZTcwODAwODg4OQ@@._V1_SY1000_CR0,0,806,1000_AL_.jpg",
+      "characterLink": "/character/ch0158137/",
+      "actorName": "Sophie Turner",
+      "actorLink": "/name/nm3849842/",
+      "royal": true,
+      "siblings": ["Robb Stark", "Arya Stark", "Bran Stark", "Rickon Stark"],
+      "marriedEngaged": [
+        "Joffrey Baratheon",
+        "Tyrion Lannister",
+        "Ramsay Snow"
+      ],
+      "guardedBy": ["Lady"],
+      "parents": ["Eddard Stark", "Catelyn Stark"]
+    },
+    {
+      "characterName": "Drogon",
+      "houseName": "Targaryen",
+      "siblings": ["Rhaegal", "Viserion"],
+      "guardianOf": ["Daenerys Targaryen"],
+      "killed": ["Pyat Pree", "Kraznys mo Nakloz", "Zalla"]
+    },
+    {
+      "characterName": "Euron Greyjoy",
+      "houseName": "Greyjoy",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzg1MTJhMjMtMmY4Yy00NTU2LTliZWUtNjM4YzAxY2M3ZDBkXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzg1MTJhMjMtMmY4Yy00NTU2LTliZWUtNjM4YzAxY2M3ZDBkXkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0518715/",
+      "actorName": "Pilou Asbæk",
+      "actorLink": "/name/nm1561982/",
+      "encountered": ["Cersei Lannister"],
+      "killed": ["Balon Greyjoy", "Obara Sand", "Nymeria Sand", "Rhaegal"],
+      "siblings": ["Balon Greyjoy", "Aeron Greyjoy"],
+      "killedBy": ["Jaime Lannister"]
+    },
+    {
+      "characterName": "Gendry",
+      "houseName": "Baratheon",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxNzYwMTk4MV5BMl5BanBnXkFtZTcwNDg1ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTcxNzYwMTk4MV5BMl5BanBnXkFtZTcwNDg1ODg4OQ@@._V1_SY1000_CR0,0,846,1000_AL_.jpg",
+      "characterLink": "/character/ch0300040/",
+      "actorName": "Joe Dempsie",
+      "actorLink": "/name/nm1478079/",
+      "parents": ["Robert Baratheon"],
+      "killed": ["Kevin Eldon", "Laurence Spellman"]
+    },
+    {
+      "characterName": "Grey Worm",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjk3ZDJlNTQtZDBiMC00ODVhLTlmYmYtYzkxMDA0N2QxNDY0XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjk3ZDJlNTQtZDBiMC00ODVhLTlmYmYtYzkxMDA0N2QxNDY0XkEyXkFqcGdeQXVyMjk3NTUyOTc@._V1_.jpg",
+      "characterLink": "/character/ch0335038/",
+      "actorName": "Jacob Anderson",
+      "actorLink": "/name/nm2760664/",
+      "killed": ["Belicho Paenymion", "Razdal mo Eraz", "Harry Strickland"],
+      "serves": ["Daenerys Targaryen"]
+    },
+    {
+      "characterName": "Jorah Mormont",
+      "houseName": "Mormont",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNTcxMDI2NV5BMl5BanBnXkFtZTcwMzgxNzI4OQ@@._V1._CR225,437,407,405._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzNTcxMDI2NV5BMl5BanBnXkFtZTcwMzgxNzI4OQ@@._V1._CR225,437,407,405_.jpg",
+      "characterLink": "/character/ch0158221/",
+      "actorName": "Iain Glen",
+      "actorLink": "/name/nm0322513/",
+      "killed": ["Qotho", "Norvoshi Pit Fighter", "Meereenese Champion"],
+      "serves": ["Daenerys Targaryen"],
+      "parents": ["Jeor Mormont"],
+      "killedBy": ["Wights"]
+    },
+    {
+      "characterName": "Eddard Stark",
+      "houseName": "Stark",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BODcwMjg0MDQ5MF5BMl5BanBnXkFtZTcwMTk2NDk4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BODcwMjg0MDQ5MF5BMl5BanBnXkFtZTcwMTk2NDk4OQ@@._V1_SY1000_CR0,0,827,1000_AL_.jpg",
+      "characterLink": "/character/ch0154681/",
+      "actorName": "Sean Bean",
+      "actorLink": "/name/nm0000293/",
+      "nickname": "Ned",
+      "guardianOf": ["Jon Snow"],
+      "siblings": ["Brandon Stark", "Benjen Stark", "Lyanna Stark"],
+      "parents": ["Rickard Stark"],
+      "killed": ["Arthur Dayne", "Will", "Lady", "Gerold Hightower"],
+      "allies": ["Howland Reed", "Robert Baratheon"],
+      "guardedBy": ["Jon Arryn"],
+      "killedBy": ["Ilyn Payne"],
+      "marriedEngaged": ["Catelyn Stark"],
+      "parentOf": [
+        "Robb Stark",
+        "Sansa Stark",
+        "Arya Stark",
+        "Bran Stark",
+        "Rickon Stark"
+      ]
+    },
+    {
+      "characterName": "Jon Snow",
+      "houseName": ["Stark", "Targaryen"],
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwMjUxMDk2OV5BMl5BanBnXkFtZTcwMzg3MTg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkwMjUxMDk2OV5BMl5BanBnXkFtZTcwMzg3MTg4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0155777/",
+      "actorName": "Kit Harington",
+      "actorLink": "/name/nm3229685/",
+      "royal": true,
+      "parents": ["Rhaegar Targaryen", "Lyanna Stark"],
+      "guardedBy": ["Eddard Stark", "Ghost"],
+      "killed": [
+        "Othor",
+        "Qhorin Halfhand",
+        "Orell",
+        "Karl Tanner",
+        "Styr",
+        "Mance Rayder",
+        "Janos Slynt",
+        "White Walker",
+        "Alliser Thorne",
+        "Othell Yarwyck",
+        "Bowen Marsh",
+        "Olly",
+        "Lyanna Stark",
+        "Daenerys Targaryen"
+      ],
+      "killedBy": ["Alliser Thorne", "Othell Yarwyck", "Bowen Marsh", "Olly"],
+      "marriedEngaged": ["Ygritte"]
+    },
+    {
+      "characterName": "Arya Stark",
+      "houseName": "Stark",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5MTYwNDc0OF5BMl5BanBnXkFtZTcwOTg2NDg1Nw@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk5MTYwNDc0OF5BMl5BanBnXkFtZTcwOTg2NDg1Nw@@._V1_SY1000_CR0,0,665,1000_AL_.jpg",
+      "characterLink": "/character/ch0158604/",
+      "actorName": "Maisie Williams",
+      "actorLink": "/name/nm3586035/",
+      "siblings": ["Robb Stark", "Sansa Stark", "Bran Stark", "Rickon Stark"],
+      "killed": [
+        "Red Keep Stableboy",
+        "Frey Soldier #1",
+        "Polliver",
+        "Rorge",
+        "Ghita",
+        "Meryn Trant",
+        "The Waif",
+        "Black Walder Rivers",
+        "Lothar Frey",
+        "Walder Frey",
+        "Petyr Baelish",
+        "The Night King",
+        "White Walker",
+        "Viserion"
+      ],
+      "parents": ["Eddard Stark", "Catelyn Stark"],
+      "guardedBy": ["Nymeria", "Jon Snow"]
+    },
+    {
+      "characterName": "The Night King",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2ZjNmYyMjAtNGUwYi00N2JmLWEyMTYtMDM5YmM2MWFhMWFiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BY2ZjNmYyMjAtNGUwYi00N2JmLWEyMTYtMDM5YmM2MWFhMWFiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
+      "characterLink": "/character/ch0512154/",
+      "actors": [
+        {
+          "actorName": "Richard Brake",
+          "actorLink": "/name/nm0104114/",
+          "seasonsActive": [4, 5]
+        },
+        {
+          "actorName": "Vladimir 'Furdo' Furdik",
+          "actorLink": "/name/nm0298842/",
+          "seasonsActive": [6, 7, 8]
+        }
+      ],
+      "killed": ["Three-Eyed Raven", "Viserion", "Ned Umber", "Theon Greyjoy"],
+      "encountered": ["Jon Snow", "Daenerys Targaryen"],
+      "killedBy": ["Arya Stark"]
+    },
+    {
+      "characterName": "Robert Baratheon",
+      "houseName": "Baratheon",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzQwMDcwNzY5MF5BMl5BanBnXkFtZTcwMzIyMTE5OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzQwMDcwNzY5MF5BMl5BanBnXkFtZTcwMzIyMTE5OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0155776/",
+      "actorName": "Mark Addy",
+      "actorLink": "/name/nm0004692/",
+      "royal": true,
+      "guardedBy": ["Jon Arryn"],
+      "marriedEngaged": ["Lyanna Stark", "Cersei Lannister"],
+      "allies": ["Jon Arryn", "Eddard Stark", "Tywin Lannister"],
+      "killed": ["Rhaegar Targaryen"],
+      "parentOf": [
+        "Joffrey Baratheon",
+        "Myrcella Baratheon",
+        "Tommen Baratheon"
+      ],
+      "killedBy": ["Boar"],
+      "siblings": ["Stannis Baratheon", "Renly Baratheon"]
+    },
+    {
+      "characterName": "Robb Stark",
+      "houseName": "Stark",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI2NDE1NzczNF5BMl5BanBnXkFtZTcwNjcwODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI2NDE1NzczNF5BMl5BanBnXkFtZTcwNjcwODg4OQ@@._V1_SY1000_CR0,0,845,1000_AL_.jpg",
+      "characterLink": "/character/ch0158596/",
+      "actorName": "Richard Madden",
+      "actorLink": "/name/nm0534635/",
+      "royal": true,
+      "siblings": [
+        "Sansa Stark",
+        "Arya Stark",
+        "Bran Stark",
+        "Rickon Stark",
+        "Jon Snow"
+      ],
+      "killed": ["Wallen", "Rickard Karstark"],
+      "marriedEngaged": ["Roslin Frey", "Talisa Maegyr"],
+      "killedBy": ["Roose Bolton"],
+      "parents": ["Eddard Stark", "Catelyn Stark"],
+      "guardedBy": ["Grey Wind"]
+    },
+    {
+      "characterName": "Ramsay Snow",
+      "houseName": "Bolton",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzM5Nzk3NTU5N15BMl5BanBnXkFtZTgwNzczMjk5NTE@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMzM5Nzk3NTU5N15BMl5BanBnXkFtZTgwNzczMjk5NTE@._V1_SY1000_CR0,0,665,1000_AL_.jpg",
+      "characterLink": "/character/ch0321004/",
+      "actorName": "Iwan Rheon",
+      "actorLink": "/name/nm3701064/",
+      "killed": [
+        "Master Torturer",
+        "Medger Cerwyn",
+        "Lady Cerwyn",
+        "Unidentified Cerwyn",
+        "Old Woman",
+        "Roose Bolton",
+        "Osha",
+        "Rickon Stark",
+        "Wun Wun"
+      ],
+      "marriedEngaged": ["Sansa Stark"],
+      "killedBy": ["Ramsay Snow's Hounds", "Jon Snow"],
+      "parents": ["Roose Bolton"]
+    },
+    {
+      "characterName": "Petyr Baelish",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1MjE3OTc3M15BMl5BanBnXkFtZTcwODgzODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1MjE3OTc3M15BMl5BanBnXkFtZTcwODgzODg4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0245982/",
+      "actorName": "Aidan Gillen",
+      "actorLink": "/name/nm0318821/",
+      "nickname": "Littlefinger",
+      "killed": ["Joffrey Baratheon", "Dontos Hollard", "Lysa Arryn"],
+      "marriedEngaged": ["Lysa Arryn"],
+      "encountered": ["Jon Snow", "Sansa Stark", "Eddard Stark", "Lord Varys"],
+      "killedBy": ["Arya Stark"]
+    },
+    {
+      "characterName": "Olenna Tyrell",
+      "houseName": "Tyrell",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMjgwOTQ3Nl5BMl5BanBnXkFtZTcwMjE2NzE5OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkxMjgwOTQ3Nl5BMl5BanBnXkFtZTcwMjE2NzE5OQ@@._V1_SY1000_CR0,0,662,1000_AL_.jpg",
+      "characterLink": "/character/ch0010188/",
+      "actorName": "Diana Rigg",
+      "actorLink": "/name/nm0001671/",
+      "killedBy": ["Jaime Lannister"],
+      "killed": ["Joffrey Baratheon"],
+      "parentOf": ["Mace Tyrell"]
+    },
+    {
+      "characterName": "Samwell Tarly",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyODYyOTczMF5BMl5BanBnXkFtZTcwNjY0ODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQyODYyOTczMF5BMl5BanBnXkFtZTcwNjY0ODg4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0244961/",
+      "actorName": "John Bradley",
+      "actorLink": "/name/nm4263213/",
+      "killed": ["White Walker", "Thenn Warg"],
+      "parents": ["Randyll Tarly", "Melessa Tarly"],
+      "siblings": ["Dickon Tarly", "Talla Tarly"],
+      "marriedEngaged": ["Gilly"],
+      "parentOf": ["Baby Sam"],
+      "serves": ["Jon Snow"]
+    },
+    {
+      "characterName": "Margaery Tyrell",
+      "houseName": "Tyrell",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODQ1MDg3NV5BMl5BanBnXkFtZTcwODA4NDk4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkzODQ1MDg3NV5BMl5BanBnXkFtZTcwODA4NDk4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0251974/",
+      "actorName": "Natalie Dormer",
+      "actorLink": "/name/nm1754059/",
+      "marriedEngaged": [
+        "Renly Baratheon",
+        "Joffrey Baratheon",
+        "Tommen Baratheon"
+      ],
+      "killedBy": ["Cersei Lannister"],
+      "siblings": ["Loras Tyrell"],
+      "parents": ["Mace Tyrell"]
+    },
+    {
+      "characterName": "Jaime Lannister",
+      "houseName": "Lannister",
+      "characterImageThumb": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIzMzU1NjM1MF5BMl5BanBnXkFtZTcwMzIxODg4OQ@@._V1._SX100_SY140_.jpg",
+      "characterImageFull": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIzMzU1NjM1MF5BMl5BanBnXkFtZTcwMzIxODg4OQ@@._V1_.jpg",
+      "characterLink": "/character/ch0158527/",
+      "actorName": "Nikolaj Coster-Waldau",
+      "actorLink": "/name/nm0182666/",
+      "nickname": "The Kingslayer",
+      "kingsguard": true,
+      "parents": ["Tywin Lannister"],
+      "serves": ["Cersei Lannister"],
+      "parentOf": [
+        "Joffrey Baratheon",
+        "Myrcella Baratheon",
+        "Tommen Baratheon"
+      ],
+      "guardianOf": [
+        "Aerys II Targaryen",
+        "Robert Baratheon",
+        "Joffrey Baratheon"
+      ],
+      "killed": [
+        "Aerys II Targaryen",
+        "Jory Cassel",
+        "Alton Lannister",
+        "Torrhen Karstark",
+        "Olenna Tyrell",
+        "Euron Greyjoy"
+      ],
+      "encountered": ["Jon Snow"],
+      "siblings": ["Cersei Lannister", "Tyrion Lannister"],
+      "killedBy": ["Roof collapse"]
+    }
+  ]
+}

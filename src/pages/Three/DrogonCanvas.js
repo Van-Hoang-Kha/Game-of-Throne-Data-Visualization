@@ -1,9 +1,9 @@
-import React, { Suspense } from "react";
+import React, { Suspense, memo } from "react";
 import { Canvas } from "react-three-fiber";
 import { OrbitControls } from "drei";
 import Drogon from "./Drogon";
 
-export default function App() {
+const App = () => {
   const selected = (ref) => {
     return ref;
   };
@@ -11,14 +11,14 @@ export default function App() {
   return (
     <Canvas
       camera={{
-        position: [-5, 3, 6],
-        fov: 63,
+        position: [30, 700, 200],
+        fov: 100,
       }}
     >
       <OrbitControls
-        enablePan={Boolean("Pan", true)}
+        enablePan={false}
         enableZoom={false}
-        enableRotate={Boolean("Rotate", true)}
+        enableRotate={false}
       />
       {/* Ambient Light illuminates lights for all objects */}
       <ambientLight intensity={0.3} />
@@ -36,11 +36,12 @@ export default function App() {
         shadow-camera-bottom={-10}
       />
       {/* Spotlight Large overhead light */}
-      <spotLight intensity={1} position={[1000, 0, 0]} castShadow />
       {/* <KeyLight brightness={5.6} color="#ffbdf4" /> */}
       <Suspense fallback={null}>
         <Drogon selected={selected} />
       </Suspense>
     </Canvas>
   );
-}
+};
+
+export default memo(App);

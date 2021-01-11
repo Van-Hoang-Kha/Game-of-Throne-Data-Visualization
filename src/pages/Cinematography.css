@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Arapey&family=Cinzel:wght@400;500;600&display=swap");
+
+.cinema__div {
+  display: flex;
+  height: 70.5vh;
+  padding: 9rem;
+  background-image: url("../images/GOTwallpaperDragons.jpg");
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.cinema__div__video {
+  margin: 6rem 0;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  width: 70%;
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+
+.cinema__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.cinema__smokes {
+  overflow: hidden;
+  position: absolute;
+}
+
+.cinema__smoke__one {
+  opacity: 0.5;
+  animation-name: float;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.cinema__smoke__two {
+  opacity: 0.5;
+  animation-name: floatOpp;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin-left: 30rem;
+}
+.cinema__summary__title {
+  font-size: 2rem;
+  color: white;
+  margin: 2rem 0;
+}
+.cinema__a {
+  text-decoration: none;
+  color: #e61303;
+}
+
+.cinema__summary__detail {
+  font-family: "Arapey", serif;
+  color: white;
+  font-size: 1.1rem;
+  margin: 0 7rem;
+  text-align: justify;
+}
+
+.smoke__img {
+  height: 22rem;
+}
+
+.smoke__img2 {
+  height: 23rem;
+}
+
+.cinema__dany {
+  position: absolute;
+  left: 56%;
+  /* top: 0rem; */
+  top: 131%;
+  z-index: 2;
+  height: 42rem;
+}
+
+@keyframes float {
+  0% {
+    margin-top: 0rem;
+    left: 0;
+  }
+  50% {
+    margin-top: 1rem;
+    left: 1px;
+  }
+  100% {
+    margin-top: 0rem;
+    left: 0;
+  }
+}
+
+@keyframes floatOpp {
+  0% {
+    margin-top: 2rem;
+    left: 0;
+  }
+  50% {
+    margin-top: 3rem;
+    left: 1px;
+  }
+  100% {
+    margin-top: 2rem;
+    left: 0;
+  }
+}

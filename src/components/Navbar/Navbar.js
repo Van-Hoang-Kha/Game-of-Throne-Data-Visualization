@@ -1,9 +1,10 @@
-import { useState, memo } from "react";
+import { useState, memo, useEffect } from "react";
 import { NavLink, Link as RouterLink } from "react-router-dom";
+import classname from "classnames";
 import { navLinks, blurOnMouseUp } from "../../utils/contents.util";
 import "./Navbar.css";
 
-function Navbar({ location }) {
+function Navbar({ location, navbarColor }) {
   const [hashKey, setHashKey] = useState();
 
   const handleNavClick = () => {
@@ -22,7 +23,7 @@ function Navbar({ location }) {
           {navLinks.map(({ label, pathname, hash }) => (
             <NavLink
               exact
-              className="navbar__nav-link"
+              className={classname("navbar__nav-link")}
               activeClassName="navbar__nav-link--active"
               isActive={(match) => isMatch({ match, hash })}
               onClick={handleNavClick}
@@ -36,8 +37,8 @@ function Navbar({ location }) {
         </div>
 
         <div className="email__link">
-          <a className="email__link__a" href="mailto:eunbyuc@gmail.com">
-            by : github.com/elsie-c
+          <a className="email__link__a" href="www.elsiemade.com">
+            by : www.elsiemade.com
           </a>
         </div>
       </nav>

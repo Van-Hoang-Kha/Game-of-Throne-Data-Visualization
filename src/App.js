@@ -5,6 +5,7 @@ import {
   createContext,
   useReducer,
   Fragment,
+  useState,
 } from "react";
 import { BrowserRouter, Switch, Route, useLocation } from "react-router-dom";
 import ReactHowler from "react-howler";
@@ -15,7 +16,6 @@ import { useLocalStorage } from "hooks";
 import ThemeProvider from "./components/ThemeProvider";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
-import Personality from "./pages/Personality";
 
 export const AppContext = createContext();
 
@@ -33,6 +33,7 @@ const App = () => {
 
 const AppRoutes = () => {
   const location = useLocation();
+  const [navbarColor, setNavbarColor] = useState(false);
   const { pathname } = location;
 
   return (
@@ -48,7 +49,6 @@ const AppRoutes = () => {
       <Navbar location={location} />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/#personality" component={Personality} />
       </Switch>
     </Fragment>
   );

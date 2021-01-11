@@ -1,13 +1,15 @@
 import React from "react";
 import Intro from "./Intro";
-import Personality from "./Personality";
+import Cinematography from "./Cinematography";
+import Relationship from "./Relationship";
 
 const Home = () => {
   return (
-    <>
+    <div className="home__div">
       <Intro />
-      <Personality />
-    </>
+      <Cinematography />
+      <Relationship />
+    </div>
   );
 };
 

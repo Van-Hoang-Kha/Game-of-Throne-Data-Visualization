@@ -39,6 +39,8 @@
   position: relative;
   transition: color var(--durationS) ease 0.1s;
   line-height: 1;
+  color: white;
+  font-weight: 500;
 }
 
 .navbar__nav-link:focus {
@@ -74,7 +76,7 @@
 
 .email__link__a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 @media screen and (max-height: 696px) {

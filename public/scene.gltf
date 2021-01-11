@@ -1,0 +1,232 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 11715,
+      "max": [296.54745483398438, 98.169357299804688, 55.327114105224609],
+      "min": [-243.41654968261719, -449.2886962890625, 32.150287628173828],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 140580,
+      "componentType": 5126,
+      "count": 11715,
+      "max": [1, 1, 1],
+      "min": [-1, -1, -1],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 11715,
+      "max": [
+        0.74775618314743042,
+        0.97344821691513062,
+        8.663675998832332e-7,
+        1
+      ],
+      "min": [
+        -0.99999982118606567,
+        -0.99527269601821899,
+        -8.663675998832332e-7,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 11715,
+      "max": [1, 1],
+      "min": [0, 0],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 23310,
+      "max": [11714],
+      "min": [0],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Anthony Yanez (https://sketchfab.com/paulyanez)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/9f621c9491c542aeaa225002022dafe4",
+      "title": "Targaryen Dragon (Game of Thrones)"
+    },
+    "generator": "Sketchfab-4.25.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 93240,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 93720,
+      "byteOffset": 93240,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 281160,
+      "byteOffset": 186960,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 187440,
+      "byteOffset": 468120,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 655560,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Default.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [0, 0, 0],
+      "name": "Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [1, 1, 1, 1],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "roughnessFactor": 0.8165151423
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Default",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [1],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [-0.70710678118654746, -0, -0, 0.70710678118654757]
+    },
+    {
+      "children": [2],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [3],
+      "matrix": [1, 0, 0, 0, 0, 0, 1, 0, 0, -1, 0, 0, 0, 0, 0, 1],
+      "name": "Targaryen Dragon.FBX"
+    },
+    {
+      "children": [4],
+      "name": "RootNode"
+    },
+    {
+      "children": [5],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.99999999999998668,
+        1.6292068494294582e-7,
+        0,
+        0,
+        -1.6292068494294582e-7,
+        0.99999999999998668,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Targaryen Dragon"
+    },
+    {
+      "children": [6],
+      "matrix": [
+        1,
+        0,
+        -0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -26.565452575683594,
+        175.83236694335938,
+        -43.738685607910156,
+        1
+      ],
+      "name": ""
+    },
+    {
+      "mesh": 0,
+      "name": "Default"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [0]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
