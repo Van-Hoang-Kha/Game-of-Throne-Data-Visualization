@@ -16,6 +16,8 @@ import { useLocalStorage } from "hooks";
 import ThemeProvider from "./components/ThemeProvider";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
+import Persona from "./pages/Persona/Persona";
+import Relationship from "./pages/Relationship/Relationship";
 
 export const AppContext = createContext();
 
@@ -49,6 +51,8 @@ const AppRoutes = () => {
       <Navbar location={location} />
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/personality" component={Persona} />
+        <Route path="/relationship" component={Relationship} />
       </Switch>
     </Fragment>
   );

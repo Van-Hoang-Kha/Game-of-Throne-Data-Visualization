@@ -1,0 +1,31 @@
+.persona__title {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.persona__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  background-image: url("../../images/GoTwallpaperWinter.png");
+}
+
+.persona__chart {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 45rem;
+  height: 45rem;
+}
+
+.persona__chart__source {
+  color: white;
+}
+
+.personal__emphasis__leader {
+  font-size: 3.2rem;
+  color: #8c0d0d;
+}

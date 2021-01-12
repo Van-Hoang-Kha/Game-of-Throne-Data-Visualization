@@ -1,5 +1,6 @@
 import { useState, memo, useEffect } from "react";
 import { NavLink, Link as RouterLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import classname from "classnames";
 import { navLinks, blurOnMouseUp } from "../../utils/contents.util";
 import "./Navbar.css";
@@ -12,7 +13,12 @@ function Navbar({ location, navbarColor }) {
   };
 
   const isMatch = ({ match, hash = "" }) => {
-    if (!match) return false;
+    if (!match) {
+      if (`/${hash}` == location.pathname) {
+        return true;
+      }
+      return false;
+    }
     return `${match.url}${hash}` === `${location.pathname}${location.hash}`;
   };
 
@@ -21,23 +27,33 @@ function Navbar({ location, navbarColor }) {
       <nav className="navbar__nav">
         <div className="navbar__nav-list">
           {navLinks.map(({ label, pathname, hash }) => (
-            <NavLink
-              exact
-              className={classname("navbar__nav-link")}
-              activeClassName="navbar__nav-link--active"
-              isActive={(match) => isMatch({ match, hash })}
-              onClick={handleNavClick}
+            <HashLink
+              className="navbar__nav-link"
               key={label}
-              to={{ pathname, hash, state: hashKey }}
-              onMouseUp={blurOnMouseUp}
+              to={`${pathname}${hash}`}
             >
-              {label}
-            </NavLink>
+              <NavLink
+                exact
+                className="navbar__inner"
+                activeClassName="navbar__nav-link--active"
+                isActive={(match) => isMatch({ match, hash })}
+                onClick={handleNavClick}
+                key={label}
+                to={{ pathname, hash, state: hashKey }}
+                onMouseUp={blurOnMouseUp}
+              >
+                {label}
+              </NavLink>
+            </HashLink>
           ))}
         </div>
 
         <div className="email__link">
-          <a className="email__link__a" href="www.elsiemade.com">
+          <a
+            className="email__link__a"
+            href="https://www.elsiemade.com"
+            target="_blank"
+          >
             by : www.elsiemade.com
           </a>
         </div>

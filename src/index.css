@@ -11,3 +11,9 @@ body {
 code {
   font-family: "Cinzel", serif;
 }
+
+.video {
+  width: 70%;
+  z-index: 1;
+  border-radius: 0.5rem;
+}

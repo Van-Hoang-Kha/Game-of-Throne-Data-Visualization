@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Arapey&family=Cinzel:wght@400;500;600&display=swap");
+
+.seasonRecap__div {
+  display: flex;
+  height: 70.5vh;
+  padding: 9rem;
+  background-image: url("../images/GOTwallpaperDragons.jpg");
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.seasonRecap__div__video {
+  margin: 6rem 0;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.seasonRecap__contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.seasonRecap__smokes {
+  overflow: hidden;
+  position: absolute;
+}
+
+.seasonRecap__smoke__one {
+  opacity: 0.5;
+  animation-name: float;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+.seasonRecap__smoke__two {
+  opacity: 0.5;
+  animation-name: floatOpp;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  margin-left: 30rem;
+}
+.seasonRecap__summary__title {
+  font-size: 2rem;
+  color: white;
+  margin: 2rem 0;
+  font-weight: 600;
+}
+.seasonRecap__a {
+  text-decoration: none;
+  color: #e61303;
+}
+
+.seasonRecap__summary__detail {
+  font-family: "Arapey", serif;
+  color: white;
+  font-size: 1.1rem;
+  margin: 0 19rem;
+  text-align: justify;
+  max-width: 38rem;
+}
+
+.smoke__img {
+  height: 22rem;
+}
+
+.smoke__img2 {
+  height: 23rem;
+}
+
+.seasonRecap__dany {
+  position: absolute;
+  /* left: 56%; */
+  left: 56%;
+  /* top: 0rem; */
+  /* top: 143%; */
+  z-index: 2;
+  height: 50.5rem;
+}
+
+@keyframes float {
+  0% {
+    transform: translatex(50px);
+  }
+  50% {
+    transform: translatex(0px);
+  }
+  100% {
+    transform: translatex(50px);
+  }
+}
+
+@keyframes floatOpp {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translatex(-50px);
+  }
+  100% {
+    transform: translatex(0px);
+  }
+}

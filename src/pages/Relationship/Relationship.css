@@ -1,0 +1,36 @@
+.relations__title {
+  font-size: 2rem;
+  color: #0f1f27;
+  font-weight: 600;
+}
+.relations__details {
+  font-family: "Arapey", serif;
+  color: #265469;
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.relations__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  background-image: url("../../images/GOTwallpaperWall.png");
+}
+
+.relations__chart {
+  padding: 3rem;
+  border-radius: 1rem;
+  width: 45rem;
+  height: 45rem;
+}
+
+.relations__chart__source {
+  color: white;
+}
+
+.relationsl__emphasis__leader {
+  font-size: 3.2rem;
+  color: #8c0d0d;
+}

@@ -2,22 +2,17 @@ export const navLinks = [
   {
     label: "Home",
     pathname: "/",
-    hash: "",
+    hash: "#intro",
   },
   {
-    label: "Personality",
+    label: "Data_Visualization",
     pathname: "/",
-    hash: "#personality",
+    hash: "personality",
   },
   {
-    label: "Presence",
+    label: "The_Web_Of_Westeros",
     pathname: "/",
-    hash: "#presence",
-  },
-  {
-    label: "Relationships",
-    pathname: "/",
-    hash: "#relationships",
+    hash: "relationship",
   },
 ];
 

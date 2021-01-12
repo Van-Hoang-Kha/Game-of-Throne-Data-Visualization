@@ -1,0 +1,58 @@
+[
+  {
+    "taste": "Extraverted",
+    "Danearys Targaryen": 32,
+    "Cersei Lannister": 88,
+    "Arya Star": 33,
+    "Jon Snow": 55,
+    "Sansa Stark": 73,
+    "The Night King": 11
+  },
+
+  {
+    "taste": "Sensing",
+    "Danearys Targaryen": 45,
+    "Cersei Lannister": 87,
+    "Arya Star": 80,
+    "Jon Snow": 73,
+    "Sansa Stark": 11,
+    "The Night King": 21
+  },
+
+  {
+    "taste": "Introverted",
+    "Danearys Targaryen": 78,
+    "Cersei Lannister": 13,
+    "Arya Star": 73,
+    "Jon Snow": 78,
+    "Sansa Stark": 65,
+    "The Night King": 99
+  },
+  {
+    "taste": "Intuition",
+    "Danearys Targaryen": 85,
+    "Cersei Lannister": 11,
+    "Arya Star": 63,
+    "Jon Snow": 72,
+    "Sansa Stark": 41,
+    "The Night King": 98
+  },
+  {
+    "taste": "Protective",
+    "Danearys Targaryen": 77,
+    "Cersei Lannister": 98,
+    "Arya Star": 43,
+    "Jon Snow": 67,
+    "Sansa Stark": 33,
+    "The Night King": 12
+  },
+  {
+    "taste": "Ego-centric",
+    "Danearys Targaryen": 23,
+    "Cersei Lannister": 89,
+    "Arya Star": 45,
+    "Jon Snow": 11,
+    "Sansa Stark": 56,
+    "The Night King": 98
+  }
+]
