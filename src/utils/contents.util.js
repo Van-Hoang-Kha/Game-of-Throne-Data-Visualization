@@ -5,7 +5,7 @@ export const navLinks = [
     hash: "#intro",
   },
   {
-    label: "Data_Visualization",
+    label: "Personality",
     pathname: "/",
     hash: "personality",
   },

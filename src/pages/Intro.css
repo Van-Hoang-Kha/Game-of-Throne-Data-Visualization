@@ -54,3 +54,27 @@
     background-color: rgba(0, 0, 0, 0);
   }
 }
+
+@media only screen and (max-width: 1000px) {
+  .intro__div {
+    padding: 0.5rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo__image {
+    width: 16rem;
+    margin: 0;
+  }
+
+  .intro__div__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intro__background__filter {
+    height: 103vh;
+  }
+}

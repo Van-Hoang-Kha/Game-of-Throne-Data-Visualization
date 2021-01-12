@@ -161,7 +161,7 @@ class App extends Component {
         id="chartdiv"
         style={{
           width: "100%",
-          height: "45rem",
+          height: "46rem",
         }}
       ></div>
     );

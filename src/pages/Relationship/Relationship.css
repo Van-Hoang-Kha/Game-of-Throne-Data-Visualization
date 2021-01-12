@@ -21,16 +21,41 @@
 
 .relations__chart {
   padding: 3rem;
-  border-radius: 1rem;
-  width: 45rem;
-  height: 45rem;
+  width: 60rem;
+  height: 41.5rem;
 }
 
 .relations__chart__source {
   color: white;
 }
 
-.relationsl__emphasis__leader {
+.relations__emphasis__leader {
   font-size: 3.2rem;
   color: #8c0d0d;
+}
+
+.relations__mobile__content {
+  color: black;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relations__visible__mobile {
+  height: 100vh;
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .relations__visible__desktop {
+    display: none;
+  }
+
+  .relations__visible__mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

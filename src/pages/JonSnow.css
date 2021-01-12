@@ -26,7 +26,7 @@
 
 .jonSnow__jon {
   position: absolute;
-  top: 140rem;
+  top: 149rem;
   z-index: 1;
   left: 8rem;
   width: 49rem;
@@ -76,7 +76,7 @@
 .jonSnow__div__video {
   display: flex;
   margin-top: 2rem;
-  max-width: 54rem;
+  max-width: 77rem;
   justify-content: flex-end;
 }
 
@@ -89,5 +89,34 @@
   }
   100% {
     transform: translatex(0px);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .jonSnow__div {
+    padding: 0.5rem;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .jonSnow__detail {
+    margin: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .jonSnow__title {
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  .jonSnow__div__video {
+    margin: 2rem 0;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .jonSnow__jon {
+    display: none;
   }
 }

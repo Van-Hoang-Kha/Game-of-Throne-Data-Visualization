@@ -83,7 +83,13 @@
   color: white;
 }
 
-@media screen and (max-height: 696px) {
+/**/
+
+@media only screen and (max-width: 696px) {
+  .navbar__nav-link {
+    font-size: 0.75rem;
+  }
+
   .navbar__nav-link::after {
     transition: transform var(--durationM) var(--bezierFastoutSlowin);
   }
@@ -91,14 +97,123 @@
   .navbar__nav-link:focus {
     box-shadow: none;
   }
-
-  .navbar {
-    --navbarNavFontSize: calc((22 / 16) * 1rem);
-    bottom: auto;
+  .navbar__nav-list,
+  .email__link {
     display: none;
   }
 
-  .email__link {
+  .dropdown {
+    display: flex !important;
+  }
+}
+
+/**/
+.dropdown {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  z-index: 99;
+  /* color: red; */
+  justify-content: flex-end;
+  display: none;
+}
+
+.products,
+.projects {
+  position: relative;
+}
+
+.menu__dropdown__lists {
+  /* border: 100px solid blue; */
+}
+
+.menu__dropdown__lists,
+.projects ul {
+  position: absolute;
+  padding: 0;
+  background: rgb(255 255 255 / 100%);
+  margin-top: 10px;
+  width: 22rem;
+  height: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease;
+  transform: translateY(-10px);
+}
+
+.projects a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.dropdown button,
+.home {
+  margin: 1rem;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  background: none;
+}
+
+.dropdown button img {
+  width: 3rem;
+  transition: 0.2s ease-in-out;
+}
+
+.dropdown button:hover {
+  animation-name: spinner;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.menu__dropdown__item,
+.projects li {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101213;
+}
+
+.menu__dropdown__item:hover,
+.projects li:hover {
+  background: #607d8b;
+  color: white;
+  cursor: pointer;
+}
+
+.projects button:focus + .menu__dropdown__lists,
+.projects button:focus + ul {
+  opacity: 1;
+  pointer-events: all;
+  transform: translate(-15.35rem, 0.5rem);
+}
+
+.menuIcon {
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
     display: none;
   }
 }

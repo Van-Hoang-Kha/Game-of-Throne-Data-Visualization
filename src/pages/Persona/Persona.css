@@ -29,3 +29,29 @@
   font-size: 3.2rem;
   color: #8c0d0d;
 }
+
+@media only screen and (max-width: 900px) {
+  .persona__visible__desktop {
+    display: none;
+  }
+
+  .persona__visible__mobile {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.persona__mobile__content {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.persona__visible__mobile {
+  height: 100vh;
+  display: none;
+}
