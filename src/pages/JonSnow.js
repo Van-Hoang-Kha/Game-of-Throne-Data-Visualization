@@ -23,6 +23,7 @@ const JonSnow = () => {
               alt=""
               target="_blank"
               data-tip
+              rel="noreferrer"
               data-for="unsullied"
               className="jonSnow__highlight"
             >
@@ -41,6 +42,7 @@ const JonSnow = () => {
             <a
               href="https://gameofthrones.fandom.com/wiki/Yara_Greyjoy"
               alt=""
+              rel="noreferrer"
               target="_blank"
               data-tip
               data-for="yara"

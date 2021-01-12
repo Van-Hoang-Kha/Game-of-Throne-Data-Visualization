@@ -1,18 +1,6 @@
-import {
-  lazy,
-  Suspense,
-  useEffect,
-  createContext,
-  useReducer,
-  Fragment,
-  useState,
-} from "react";
+import { createContext, Fragment } from "react";
 import { BrowserRouter, Switch, Route, useLocation } from "react-router-dom";
 import ReactHowler from "react-howler";
-import { Transition, TransitionGroup } from "react-transition-group";
-import classNames from "classnames";
-import { Helmet } from "react-helmet";
-import { useLocalStorage } from "hooks";
 import ThemeProvider from "./components/ThemeProvider";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
@@ -35,8 +23,6 @@ const App = () => {
 
 const AppRoutes = () => {
   const location = useLocation();
-  const [navbarColor, setNavbarColor] = useState(false);
-  const { pathname } = location;
 
   return (
     <Fragment>

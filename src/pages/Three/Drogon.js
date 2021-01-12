@@ -10,9 +10,6 @@ export default function Drogon(props) {
   const { nodes, materials } = useGLTF("/scene.gltf");
 
   useFrame((state) => {
-    const t = state.clock.getElapsedTime() * 4;
-    // group.current.rotation.x = Math.sin(t / 4) / 8;
-    // group.current.rotation.z = Math.sin(t / 4) / 1;
     group.current.rotation.z += 0.01;
   });
 

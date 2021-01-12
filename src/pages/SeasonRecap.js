@@ -17,6 +17,7 @@ const SeasonRecap = () => {
           <a
             data-tip
             data-for="greatWar"
+            rel="noreferrer"
             className="seasonRecap__a"
             href="https://gameofthrones.fandom.com/wiki/Great_War"
             target="_blank"
@@ -38,6 +39,7 @@ const SeasonRecap = () => {
           losses until she finally assaults King's Landing upon Drogon, her last
           dragon.{" "}
           <a
+            rel="noreferrer"
             data-tip
             data-for="sourceLink"
             className="seasonRecap__a"

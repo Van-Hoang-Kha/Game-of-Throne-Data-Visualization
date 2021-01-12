@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4charts from "@amcharts/amcharts4/charts";
-import am4themes from "@amcharts/amcharts4/themes/animated";
 import moonrisekingdom from "@amcharts/amcharts4/themes/moonrisekingdom";
 import monochrome from "@amcharts/amcharts4/themes/moonrisekingdom";
 

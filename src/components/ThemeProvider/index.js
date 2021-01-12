@@ -6,8 +6,6 @@ import { theme, tokens } from "./theme";
 import { media } from "../../utils/media.util";
 import CinzelRegular from "../../fonts/Cinzel-Medium.ttf";
 import CinzelMedium from "../../fonts/Cinzel-Regular.ttf";
-// import GothamBook from "assets/fonts/gotham-book.woff2";
-// import GothamMedium from "assets/fonts/gotham-medium.woff2";
 
 export const fontStyles = `
   @font-face {
