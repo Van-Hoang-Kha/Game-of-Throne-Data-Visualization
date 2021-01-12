@@ -1,8 +1,6 @@
 # Sound of Fire
 
-An interactive data visualization website for my favorite show, Game of Throne (up until season 8).
-
-This project was created with [Create React App](https://github.com/facebook/create-react-app). Here's the link to the [Website](https://soundoffire.netlify.com).
+An interactive data visualization website for my favorite show, Game of Throne (up until season 8). This project was created with [Create React App](https://github.com/facebook/create-react-app). Here's the link to the [Website](https://soundoffire.netlify.com).
 
 # Preview
 
