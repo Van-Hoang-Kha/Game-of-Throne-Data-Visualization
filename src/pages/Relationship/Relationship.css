@@ -48,6 +48,13 @@
   display: none;
 }
 
+.relations__visible__desktop {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media only screen and (max-width: 900px) {
   .relations__visible__desktop {
     display: none;
