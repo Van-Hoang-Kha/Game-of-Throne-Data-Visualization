@@ -1,6 +1,7 @@
 # Sound of Fire
 
 An interactive data visualization website for my favorite show, Game of Throne (up until season 8). This project was created with [Create React App](https://github.com/facebook/create-react-app). Here's the link to the [Website](https://soundoffire.netlify.com).
+General Comment: This website is actually version 2. The previous version of this website had a different layout and used GSAP instead of Parallax/Three.js. This project was ultimately revamped for me to test out the usage of THREE.js and PARALLAX effects. I'm currently working on 3D Modeling works to add more freatures to this website. 
 
 # Most challenging parts
 - Being able to load and render 3d models properly (learning curve with 'mesh')
