@@ -53,11 +53,11 @@ function Navbar({ location, navbarColor }) {
           <div className="email__link">
             <a
               className="email__link__a"
-              href="https://www.elsiemade.com"
+              href="https://www.elsiec.co"
               target="_blank"
               rel="noreferrer"
             >
-              by : www.elsiemade.com
+              by : elsiec.co
             </a>
           </div>
         </nav>
